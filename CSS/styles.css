@@ -305,8 +305,7 @@ padding-bottom: 94px;
     justify-content: center;
     gap: 10px;
 }
-.social-media-employee {
-}
+
 .icon-link-employee {
     display: flex;
     width: 44px;
@@ -435,8 +434,6 @@ fill: #AFB1B8;
     justify-content: center;
     gap: 10px;
 }
-
-.social-media-footer {}
 
 .icon-link-footer {
     display: flex;
