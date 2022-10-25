@@ -351,6 +351,7 @@ h1 {
     fill: #FFFFFF;
 }
 
-.icon-link-footer:hover {
+.icon-link-footer:hover,
+.icon-link-footer:focus {
     background-color: #2196F3;
 }
