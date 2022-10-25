@@ -147,22 +147,26 @@ margin-right: 0;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 600px;
-    width: 1600px;
-    background: rgba(47, 48, 58, 0.4);
+    
 }
 .hero-section {
     display: flex;
-   background: #2F303A;
-   text-align: center;
-   align-items: center;
-   /* padding-top: 200px;
-   padding-bottom: 200px;  */
+    background: #2F303A;
+    text-align: center;
+    align-items: center;
     background-image: url(../images/hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    object-fit: cover;
-    
+}
+.background-hero {
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: rgba(47, 48, 58, 0.4);
+        width: 1600px;
+        padding-top: 200px;
+        padding-bottom: 200px;
 }
 .hero-title {
     color: white;
@@ -173,7 +177,6 @@ margin-right: 0;
     text-transform: uppercase;
     margin-bottom: 30px;
     width: 696px;
-    padding-top: 200px;
 }
 .button-hero {
     display: block;
@@ -188,6 +191,10 @@ margin-right: 0;
     padding: 10px 32px;
     margin: 0;
     border: none;
+}
+.button-hero:hover,
+.button-hero:focus {
+    background-color: #188CE8;
 }
 .section-advantages {
 padding-top: 94px;
@@ -317,10 +324,12 @@ padding-bottom: 94px;
 .icon-social-media-employee {
     fill: #AFB1B8;
 }
-.icon-link-employee:hover {
-    background-color: #2196F3;
+.icon-link-employee:hover,
+.icon-link-employee:focus {
+    background-color: #2196F3;  
 }
-.icon-link-employee:hover .icon-social-media-employee {
+.icon-link-employee:hover .icon-social-media-employee,
+.icon-link-employee:focus .icon-social-media-employee {
     fill: #FFFFFF;
 }
 .clients {
@@ -354,7 +363,12 @@ padding-bottom: 94px;
 .icon-clients {
 fill: #AFB1B8;
 }
-.icon-clients:hover {
+.link-clients:hover,
+.link-clients:focus {
+border: 1px solid #2196F3 ;
+}
+.link-clients:hover .icon-clients,
+.link-clients:focus .icon-clients {
     fill: #2196F3;
 }
 /* footer */
@@ -449,6 +463,7 @@ fill: #AFB1B8;
     fill: #FFFFFF;
 }
 
-.icon-link-footer:hover {
+.icon-link-footer:hover,
+.icon-link-footer:focus {
     background-color: #2196F3;
 }
